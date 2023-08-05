@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Pixel Adventure 1/Scenes/SampleScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
