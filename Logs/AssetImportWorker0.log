@@ -1094,3 +1094,23 @@ Received Import Request.
 Start importing Assets/Animations/Player_Falling.anim using Guid(79c24e67877f4422ebff5da4601edd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42e2db1b0ab39cdbbba8f19494bf4c1') in 0.021261 seconds
   Import took 0.023912 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.7 MB.
+System memory in use after: 172.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2432.
+Total: 1.429625 ms (FindLiveObjects: 0.100375 ms CreateObjectMapping: 0.033333 ms MarkObjects: 1.219208 ms  DeleteObjects: 0.076125 ms)
+
