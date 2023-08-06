@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 7555496598196574065}
   - component: {fileID: 7555496598196574070}
   - component: {fileID: 7555496598196574071}
-  - component: {fileID: 7555496598196574064}
   - component: {fileID: 7555496598196574069}
   - component: {fileID: 7555496598196574075}
-  - component: {fileID: 7555496598196574068}
+  - component: {fileID: 2289468339789902019}
+  - component: {fileID: 5116441227622193651}
   m_Layer: 6
   m_Name: Moving Platform
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7555496598196574066}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.3386936, y: 0.90625674, z: 4.9756603}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -97,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 7555496598196574066}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf3949605080f3f45b85828d3e776a77, type: 2}
+  m_Controller: {fileID: 9100000, guid: ac1024d7ff7f54721a5dacdda9539324, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -106,22 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7555496598196574064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7555496598196574066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eecba099c67922945ab9e74018240228, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  speed: 2
 --- !u!61 &7555496598196574069
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,7 +158,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6793079, y: 0.08544591}
   m_EdgeRadius: 0
---- !u!114 &7555496598196574068
+--- !u!114 &2289468339789902019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,6 +167,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 7555496598196574066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66432bf77efc61f4abfaf43fdb3989e3, type: 3}
+  m_Script: {fileID: 11500000, guid: fcc9afa395f544bc7bfc3ecf82b17c86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5116441227622193651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7555496598196574066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a0e997fbfc2e4110b8986bd947f56e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  speed: 2
