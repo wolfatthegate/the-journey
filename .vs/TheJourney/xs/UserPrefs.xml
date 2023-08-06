@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{95F408C4-A9EC-0C32-F4DE-F12CFB862469}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ItemCollector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerLife.cs">
     <Files>
-      <File FileName="Assets/PlayerMovement.cs" Line="46" Column="56" />
+      <File FileName="Assets/PlayerMovement.cs" Line="38" Column="1" />
       <File FileName="Assets/CameraController.cs" Line="7" Column="48" />
-      <File FileName="Assets/Scripts/ItemCollector.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/ItemCollector.cs" Line="6" Column="43" />
+      <File FileName="Assets/Scripts/PlayerLife.cs" Line="34" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
