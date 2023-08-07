@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - PlayerLife
     - PlayerMovement
     - Rotate
+    - StartMenu
     - StickyPlatform
     - WaypointFollower
     Unity.2D.Animation.Editor.dll:
@@ -34,10 +35,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -80,11 +79,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2806}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 48702}
+      Script: {instanceID: 3080}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -151,17 +150,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2856}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4048}
+      Script: {instanceID: 4050}
     - Class: 114
-      Script: {instanceID: 4116}
+      Script: {instanceID: 4118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -240,17 +239,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2764}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2856}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3902}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4048}
+      Script: {instanceID: 4050}
     - Class: 114
-      Script: {instanceID: 4116}
+      Script: {instanceID: 4118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -278,6 +277,55 @@ ScriptsOnlyBuild:
     - Class: 483693784
       Script: {instanceID: 0}
     - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Start Screen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1486}
+    - Class: 114
+      Script: {instanceID: 2074}
+    - Class: 114
+      Script: {instanceID: 2448}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2764}
+    - Class: 114
+      Script: {instanceID: 2978}
+    - Class: 114
+      Script: {instanceID: 3080}
+    - Class: 114
+      Script: {instanceID: 4234}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -490,6 +538,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndMenu
   - hash:
       serializedVersion: 2
       Hash: a306e12d896ddcca949923c805691027
@@ -781,6 +835,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
@@ -844,20 +904,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: StartMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EndMenu
   platform: 2
   scenePathNames:
+  - Assets/Scenes/Start Screen.unity
   - Assets/Scenes/Level 1.unity
   - Assets/Scenes/Level 2.unity
   - Assets/Scenes/End Screen.unity
